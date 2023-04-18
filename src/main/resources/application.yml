@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_boot_course
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: "Aliba2022"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+# Server:
+  # port: 5432
